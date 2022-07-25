@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Run modesum program.
+#
+echo Running modesum7_nonmpi
+#
+INPF="./input_file_list"
+#
+./modesum7_nonmpi $INPF
+#
+echo "Modesum Job Ended at `date`"
+#

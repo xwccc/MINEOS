@@ -1,0 +1,35 @@
+#!/bin/bash
+#
+#
+OUTDIR="./tmp"
+MODNAM="premANIC.card"
+MODPAT="."
+#
+echo Running mineos_drv
+#
+# Set the running arguments.
+#
+GRAV="2000."
+LMIN="1"
+LMAX="500"
+EPS="1.d-15"
+FMIN="-1."
+FMAX="10.0"
+CHKERR="1.d-2"
+#
+#
+echo Running mineos_mpi with arguments
+echo model file: $MODPAT/$MODNAM
+echo grav=$GRAV 
+echo lmin=$LMIN 
+echo lmax=$LMAX 
+echo eps=$EPS
+echo fmhzmin=$FMIN 
+echo fmhzmax=$FMAX 
+echo Output directory: $OUTDIR
+#
+mkdir -p $OUTDIR
+#
+./mineos_drv $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR
+#
+#

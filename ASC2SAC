@@ -1,0 +1,66 @@
+#!/bin/csh -f
+# Luis Rivera, CNRS, France, 2001: conversion from ASCII to SAC
+# input ASCII format is time and displacement on two columns
+# 8 digits of precision
+
+for asc in `ls *.ASC`
+do
+echo $asc
+
+sed "1,6d" ${asc} > ${asc}_1
+file=${asc}_1
+
+# time step
+  T0=`head -1 $file |          gawk '{print $1}'`
+  T1=`head -2 $file |tail -1 | gawk '{print $1}'`
+  dt=`echo $T0 $T1 | gawk '{print $2-$1}'`
+
+# second column
+  
+  gawk '{print $2}'  ${file} |\
+  sed -e "s/[Dd]/ e/"     |\
+  gawk '{print int($1*1e8)/1e8, $2}'  |\
+  sed -e "s/ e/e/"     > ${file}_TMP
+
+  sac << LASTLINE
+            ra ${file}_TMP
+            ch b     $T0
+            ch delta $dt
+            write ${file}.1.sac
+            q
+LASTLINE
+gawk '{print $3}' ${file}   |\
+  sed -e "s/[Dd]/ e/"     |\
+  gawk '{print int($1*1e8)/1e8, $3}'  |\
+  sed -e "s/ e/e/"     > ${file}_TMP
+
+  sac << LASTLINE
+            ra ${file}_TMP
+            ch b     $T0
+            ch delta $dt
+            write ${file}.2.sac
+            q
+LASTLINE
+gawk '{print $4}' ${file}   |\
+  sed -e "s/[Dd]/ e/"     |\
+  gawk '{print int($1*1e8)/1e8, $4}'  |\
+  sed -e "s/ e/e/"     > ${file}_TMP
+
+  sac << LASTLINE
+            ra ${file}_TMP
+            ch b     $T0
+            ch delta $dt
+            write ${file}.3.sac
+            q
+LASTLINE
+
+  \rm -f ${file}_TMP
+  \rm -f ${asc}_1
+	\rm -f a
+    
+done
+
+for file in `ls *.sac`
+do
+mv "$file" `echo "$file" |awk -F '.' '{print $1"."$2"."$4"."$5}'`
+done

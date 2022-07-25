@@ -1,0 +1,67 @@
+#! /bin/bash
+#
+gmt set MAP_FRAME_PEN 0.4p
+gmt set FONT_LABEL 12p
+gmt set MAP_TITLE_OFFSET 5p
+gmt set FONT_ANNOT 10p
+#
+modefile=mode_fun.asc
+output=mode_fun.ps
+#
+r1=0
+r2=6371
+#
+max1=7
+min1=-7
+max2=2000
+min2=-2000
+max3=7
+min3=-7
+max4=5000
+min4=-5000
+fsize=3i/4i
+#
+#------------------------------------
+# plot U(r)
+gmt psbasemap -R$min1/$max1/$r1/$r2 -JX$fsize -BWSne -Bya1000f500+l"r (km)" -Bxa2f1+l"U(r)" -P -K -X+2.7 -Y+15.5 > $output
+awk '{print $2, $1/1000}' $modefile | gmt psxy -JX -R$min1/$max1/$r1/$r2 -K -O -W2 -B -P >> $output
+#
+gmt psxy -JX -R -W3:- -O -K -B -P << END >> $output
+0. 0.
+0. 6371.
+END
+#
+#awk '{if($1 == "Mode") print 0., 6600., $3 $4 $5}' $modefile | gmt pstext -JX -R -O >> $output
+gmt pstext -JX -R -F+f24p,1 -P -K -O -N << EOF >> $output
+0 6800 $(awk 'NR==1{print $3$4$5}' mode_fun.asc)
+EOF
+#-----------------------------------
+# plot dU/dr
+gmt psbasemap -R$min2/$max2/$r1/$r2 -JX$fsize -BWSne -Bya1000f500+l"r (km)" -Bxa1000f500+l"dU(r)/dr" -P -K -O -X+10.0 -Y+0.0>> $output
+awk '{print $3, $1/1000}' $modefile | gmt psxy -JX -R$min2/$max2/$r1/$r2 -K -O -W2 -B -P >> $output
+gmt psxy -JX -R -W3:- -O -K -B -P << END >> $output
+0. 0.
+0. 6371.
+END
+#-----------------------------------
+# plot V(r)
+gmt psbasemap -R$min3/$max3/$r1/$r2 -JX$fsize -BWSne -Bya1000f500+l"r (km)" -Bxa2f1+l"V(r)" -P -K -O -X-10.0 -Y-12.2 >> $output
+awk '{print $4, $1/1000}' $modefile | gmt psxy -JX -R$min3/$max3/$r1/$r2 -K -O -W2 -B -P >> $output
+#
+gmt psxy -JX -R -W3:- -O -K -B -P << END >> $output
+0. 0.
+0. 6371.
+END
+gmt pstext -JX -R -F+f12p,1 -P -K -O -N << EOF >> $output
+8 -1200 $(awk 'NR==1{print "Eigf="$6 ", Gv="$7 ", Q="$8 ", Err=" $9}' mode_fun.asc)
+EOF
+#-----------------------------------
+# plot dV/dr
+gmt psbasemap -R$min4/$max4/$r1/$r2 -JX$fsize -BWSne -Bya1000f500+l"r (km)" -Bxa2000f1000+l"dV(r)/dr" -P -K -O -X+10.0 -Y+0.0>> $output
+awk '{print $5, $1/1000}' $modefile | gmt psxy -JX -R$min4/$max4/$r1/$r2 -K -O -W2 -B -P >> $output
+gmt psxy -JX -R -W3:- -O -B -P << END >> $output
+0. 0.
+0. 6371.
+END
+#
+gmt psconvert -Tf -A $output

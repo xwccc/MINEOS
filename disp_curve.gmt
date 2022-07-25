@@ -1,0 +1,32 @@
+#!/bin/bash
+gmt set MAP_FRAME_PEN 0.4p
+gmt set FONT_LABEL 6p
+gmt set FONT_ANNOT_PRIMARY 5p
+gmt set MAP_TITLE_OFFSET 5p
+freqfile=freqsortn.txt
+PS=disp_curve.ps
+index=0
+rm tmp.txt
+# get maximum l and f
+lmaxtmp=$(sed -n "$(awk 'END{print NR}' freq.txt), 1p" freq.txt | awk '{print $2}')
+fmaxtmp=$(sed -n "$(awk 'END{print NR}' freq.txt), 1p" freq.txt | awk '{print $3}')
+((lmax=$lmaxtmp+1))
+fmax=$(echo $((${fmaxtmp//.*/+2})))
+R=0/$lmax/0/$fmax
+# basemap
+gmt psbasemap -R$R -JX15c/6c -BWS -Byaf+l"frequency (mHz)" -Bxaf+l"angular degree l" -P -K > $PS
+cat $freqfile | while read n l f
+do
+#echo $n,$l,$f
+if [ $n -ne $index ];then
+# plot a branch
+awk '{print $1, $2}' tmp.txt | gmt psxy -R$R -JX15c/6c -W0.1p -P -O -K >> $PS
+awk '{print $1, $2}' tmp.txt | gmt psxy -R$R -JX15c/6c -W0.2p,. -P -O -K >> $PS
+((index=$index+1))
+echo $l $f > tmp.txt
+else
+echo $l $f >> tmp.txt	
+fi
+done
+gmt psbasemap -R$R -JX15c/6c -Bne -P -O >> $PS
+gmt psconvert -Tf -A $PS

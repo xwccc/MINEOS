@@ -1,0 +1,552 @@
+   35 loops on   4 CPUs for l from     1 to   137
+  CPU Rank   0 running mineos for sph for degree      l=    1. fmhzmin=   0.012, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=    2. fmhzmin=   0.020, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=    3. fmhzmin=   0.028, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=    4. fmhzmin=   0.036, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for sph for degree l=    1
+  CPU Rank   1 running checkmode for sph for degree l=    2
+  CPU Rank   2 running checkmode for sph for degree l=    3
+  CPU Rank   3 running checkmode for sph for degree l=    4
+  CPU Rank   1 running mineos for tor for degree      l=    3. fmhzmin=   0.020, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=    4. fmhzmin=   0.012, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=    2. fmhzmin=   0.028, fmhzmax=  10.000
+  CPU Rank   3 running mineos for tor for degree      l=    1. fmhzmin=   0.036, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for tor for degree l=    4
+  CPU Rank   1 running checkmode for tor for degree l=    3
+  CPU Rank   2 running checkmode for tor for degree l=    2
+  CPU Rank   3 running checkmode for tor for degree l=    1
+  CPU Rank   0 running mineos for sph for degree      l=    5. fmhzmin=   0.044, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=    6. fmhzmin=   0.052, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=    7. fmhzmin=   0.060, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=    8. fmhzmin=   0.068, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for sph for degree l=    5
+  CPU Rank   1 running checkmode for sph for degree l=    6
+  CPU Rank   2 running checkmode for sph for degree l=    7
+  CPU Rank   3 running checkmode for sph for degree l=    8
+  CPU Rank   0 running mineos for tor for degree      l=    8. fmhzmin=   0.044, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=    7. fmhzmin=   0.052, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=    6. fmhzmin=   0.060, fmhzmax=  10.000
+  CPU Rank   3 running mineos for tor for degree      l=    5. fmhzmin=   0.068, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for tor for degree l=    8
+  CPU Rank   1 running checkmode for tor for degree l=    7
+  CPU Rank   2 running checkmode for tor for degree l=    6
+  CPU Rank   3 running checkmode for tor for degree l=    5
+  CPU Rank   0 running mineos for sph for degree      l=    9. fmhzmin=   0.076, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   10. fmhzmin=   0.084, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   11. fmhzmin=   0.092, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=   12. fmhzmin=   0.100, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for sph for degree l=    9
+  CPU Rank   1 running checkmode for sph for degree l=   10
+  CPU Rank   2 running checkmode for sph for degree l=   11
+  CPU Rank   3 running checkmode for sph for degree l=   12
+  CPU Rank   0 running mineos for tor for degree      l=   12. fmhzmin=   0.076, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   11. fmhzmin=   0.084, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   10. fmhzmin=   0.092, fmhzmax=  10.000
+  CPU Rank   3 running mineos for tor for degree      l=    9. fmhzmin=   0.100, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for tor for degree l=   12
+  CPU Rank   1 running checkmode for tor for degree l=   11
+  CPU Rank   2 running checkmode for tor for degree l=   10
+  CPU Rank   3 running checkmode for tor for degree l=    9
+  CPU Rank   0 running mineos for sph for degree      l=   13. fmhzmin=   0.108, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   14. fmhzmin=   0.116, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   15. fmhzmin=   0.124, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=   16. fmhzmin=   0.132, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for sph for degree l=   13
+  CPU Rank   1 running checkmode for sph for degree l=   14
+  CPU Rank   3 running checkmode for sph for degree l=   16
+  CPU Rank   2 running checkmode for sph for degree l=   15
+  CPU Rank   0 running mineos for tor for degree      l=   16. fmhzmin=   0.108, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   15. fmhzmin=   0.116, fmhzmax=  10.000
+  CPU Rank   3 running mineos for tor for degree      l=   13. fmhzmin=   0.132, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   14. fmhzmin=   0.124, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for tor for degree l=   16
+  CPU Rank   1 running checkmode for tor for degree l=   15
+  CPU Rank   3 running checkmode for tor for degree l=   13
+  CPU Rank   2 running checkmode for tor for degree l=   14
+  CPU Rank   0 running mineos for sph for degree      l=   17. fmhzmin=   0.140, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   18. fmhzmin=   0.148, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=   20. fmhzmin=   0.164, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   19. fmhzmin=   0.156, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for sph for degree l=   17
+  CPU Rank   1 running checkmode for sph for degree l=   18
+  CPU Rank   3 running checkmode for sph for degree l=   20
+  CPU Rank   2 running checkmode for sph for degree l=   19
+  CPU Rank   0 running mineos for tor for degree      l=   20. fmhzmin=   0.140, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   19. fmhzmin=   0.148, fmhzmax=  10.000
+  CPU Rank   3 running mineos for tor for degree      l=   17. fmhzmin=   0.164, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   18. fmhzmin=   0.156, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for tor for degree l=   20
+  CPU Rank   1 running checkmode for tor for degree l=   19
+  CPU Rank   3 running checkmode for tor for degree l=   17
+  CPU Rank   2 running checkmode for tor for degree l=   18
+  CPU Rank   0 running mineos for sph for degree      l=   21. fmhzmin=   0.172, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   22. fmhzmin=   0.180, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=   24. fmhzmin=   0.196, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   23. fmhzmin=   0.188, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   24
+  CPU Rank   1 running checkmode for sph for degree l=   22
+  CPU Rank   0 running checkmode for sph for degree l=   21
+  CPU Rank   2 running checkmode for sph for degree l=   23
+  CPU Rank   3 running mineos for tor for degree      l=   21. fmhzmin=   0.196, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   23. fmhzmin=   0.180, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   24. fmhzmin=   0.172, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   22. fmhzmin=   0.188, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   21
+  CPU Rank   1 running checkmode for tor for degree l=   23
+  CPU Rank   0 running checkmode for tor for degree l=   24
+  CPU Rank   2 running checkmode for tor for degree l=   22
+  CPU Rank   3 running mineos for sph for degree      l=   28. fmhzmin=   0.228, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   26. fmhzmin=   0.212, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   25. fmhzmin=   0.204, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   27. fmhzmin=   0.220, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   28
+  CPU Rank   1 running checkmode for sph for degree l=   26
+  CPU Rank   2 running checkmode for sph for degree l=   27
+  CPU Rank   0 running checkmode for sph for degree l=   25
+  CPU Rank   3 running mineos for tor for degree      l=   25. fmhzmin=   0.228, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   27. fmhzmin=   0.212, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   26. fmhzmin=   0.220, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   28. fmhzmin=   0.204, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   25
+  CPU Rank   1 running checkmode for tor for degree l=   27
+  CPU Rank   2 running checkmode for tor for degree l=   26
+  CPU Rank   0 running checkmode for tor for degree l=   28
+  CPU Rank   3 running mineos for sph for degree      l=   32. fmhzmin=   0.260, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   30. fmhzmin=   0.244, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   31. fmhzmin=   0.252, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   29. fmhzmin=   0.236, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   32
+  CPU Rank   1 running checkmode for sph for degree l=   30
+  CPU Rank   2 running checkmode for sph for degree l=   31
+  CPU Rank   0 running checkmode for sph for degree l=   29
+  CPU Rank   3 running mineos for tor for degree      l=   29. fmhzmin=   0.260, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   31. fmhzmin=   0.244, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   30. fmhzmin=   0.252, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   32. fmhzmin=   0.236, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   29
+  CPU Rank   1 running checkmode for tor for degree l=   31
+  CPU Rank   2 running checkmode for tor for degree l=   30
+  CPU Rank   0 running checkmode for tor for degree l=   32
+  CPU Rank   3 running mineos for sph for degree      l=   36. fmhzmin=   0.292, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   34. fmhzmin=   0.276, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   35. fmhzmin=   0.284, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   33. fmhzmin=   0.268, fmhzmax=  10.000
+  CPU Rank   1 running checkmode for sph for degree l=   34
+  CPU Rank   3 running checkmode for sph for degree l=   36
+  CPU Rank   2 running checkmode for sph for degree l=   35
+  CPU Rank   0 running checkmode for sph for degree l=   33
+  CPU Rank   1 running mineos for tor for degree      l=   35. fmhzmin=   0.276, fmhzmax=  10.000
+  CPU Rank   3 running mineos for tor for degree      l=   33. fmhzmin=   0.292, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   34. fmhzmin=   0.284, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   36. fmhzmin=   0.268, fmhzmax=  10.000
+  CPU Rank   1 running checkmode for tor for degree l=   35
+  CPU Rank   3 running checkmode for tor for degree l=   33
+  CPU Rank   2 running checkmode for tor for degree l=   34
+  CPU Rank   0 running checkmode for tor for degree l=   36
+  CPU Rank   1 running mineos for sph for degree      l=   38. fmhzmin=   0.308, fmhzmax=  10.000
+  CPU Rank   3 running mineos for sph for degree      l=   40. fmhzmin=   0.324, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   39. fmhzmin=   0.316, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   37. fmhzmin=   0.300, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   40
+  CPU Rank   1 running checkmode for sph for degree l=   38
+  CPU Rank   2 running checkmode for sph for degree l=   39
+  CPU Rank   0 running checkmode for sph for degree l=   37
+  CPU Rank   3 running mineos for tor for degree      l=   37. fmhzmin=   0.324, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   39. fmhzmin=   0.308, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   38. fmhzmin=   0.316, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   40. fmhzmin=   0.300, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   37
+  CPU Rank   1 running checkmode for tor for degree l=   39
+  CPU Rank   2 running checkmode for tor for degree l=   38
+  CPU Rank   0 running checkmode for tor for degree l=   40
+  CPU Rank   3 running mineos for sph for degree      l=   44. fmhzmin=   0.356, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   42. fmhzmin=   0.340, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   43. fmhzmin=   0.348, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   41. fmhzmin=   0.332, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   44
+  CPU Rank   1 running checkmode for sph for degree l=   42
+  CPU Rank   2 running checkmode for sph for degree l=   43
+  CPU Rank   0 running checkmode for sph for degree l=   41
+  CPU Rank   3 running mineos for tor for degree      l=   41. fmhzmin=   0.356, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   43. fmhzmin=   0.340, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   42. fmhzmin=   0.348, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   44. fmhzmin=   0.332, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   41
+  CPU Rank   1 running checkmode for tor for degree l=   43
+  CPU Rank   2 running checkmode for tor for degree l=   42
+  CPU Rank   0 running checkmode for tor for degree l=   44
+  CPU Rank   3 running mineos for sph for degree      l=   48. fmhzmin=   0.388, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   46. fmhzmin=   0.372, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   47. fmhzmin=   0.380, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   45. fmhzmin=   0.364, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   48
+  CPU Rank   1 running checkmode for sph for degree l=   46
+  CPU Rank   2 running checkmode for sph for degree l=   47
+  CPU Rank   0 running checkmode for sph for degree l=   45
+  CPU Rank   3 running mineos for tor for degree      l=   45. fmhzmin=   0.388, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   47. fmhzmin=   0.372, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   46. fmhzmin=   0.380, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   48. fmhzmin=   0.364, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   45
+  CPU Rank   1 running checkmode for tor for degree l=   47
+  CPU Rank   2 running checkmode for tor for degree l=   46
+  CPU Rank   0 running checkmode for tor for degree l=   48
+  CPU Rank   3 running mineos for sph for degree      l=   52. fmhzmin=   0.420, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   50. fmhzmin=   0.404, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   51. fmhzmin=   0.412, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   49. fmhzmin=   0.396, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   52
+  CPU Rank   1 running checkmode for sph for degree l=   50
+  CPU Rank   2 running checkmode for sph for degree l=   51
+  CPU Rank   0 running checkmode for sph for degree l=   49
+  CPU Rank   3 running mineos for tor for degree      l=   49. fmhzmin=   0.420, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   51. fmhzmin=   0.404, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   50. fmhzmin=   0.412, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   52. fmhzmin=   0.396, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   49
+  CPU Rank   1 running checkmode for tor for degree l=   51
+  CPU Rank   2 running checkmode for tor for degree l=   50
+  CPU Rank   0 running checkmode for tor for degree l=   52
+  CPU Rank   3 running mineos for sph for degree      l=   56. fmhzmin=   0.452, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   54. fmhzmin=   0.436, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   55. fmhzmin=   0.444, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   53. fmhzmin=   0.428, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   56
+  CPU Rank   1 running checkmode for sph for degree l=   54
+  CPU Rank   2 running checkmode for sph for degree l=   55
+  CPU Rank   0 running checkmode for sph for degree l=   53
+  CPU Rank   3 running mineos for tor for degree      l=   53. fmhzmin=   0.452, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   55. fmhzmin=   0.436, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   54. fmhzmin=   0.444, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   56. fmhzmin=   0.428, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   53
+  CPU Rank   1 running checkmode for tor for degree l=   55
+  CPU Rank   2 running checkmode for tor for degree l=   54
+  CPU Rank   0 running checkmode for tor for degree l=   56
+  CPU Rank   3 running mineos for sph for degree      l=   60. fmhzmin=   0.484, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   58. fmhzmin=   0.468, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   59. fmhzmin=   0.476, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   57. fmhzmin=   0.460, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   60
+  CPU Rank   1 running checkmode for sph for degree l=   58
+  CPU Rank   2 running checkmode for sph for degree l=   59
+  CPU Rank   0 running checkmode for sph for degree l=   57
+  CPU Rank   3 running mineos for tor for degree      l=   57. fmhzmin=   0.484, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   59. fmhzmin=   0.468, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   58. fmhzmin=   0.476, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   60. fmhzmin=   0.460, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   57
+  CPU Rank   1 running checkmode for tor for degree l=   59
+  CPU Rank   2 running checkmode for tor for degree l=   58
+  CPU Rank   0 running checkmode for tor for degree l=   60
+  CPU Rank   3 running mineos for sph for degree      l=   64. fmhzmin=   0.516, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   62. fmhzmin=   0.500, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   63. fmhzmin=   0.508, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   61. fmhzmin=   0.492, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   64
+  CPU Rank   1 running checkmode for sph for degree l=   62
+  CPU Rank   2 running checkmode for sph for degree l=   63
+  CPU Rank   0 running checkmode for sph for degree l=   61
+  CPU Rank   3 running mineos for tor for degree      l=   61. fmhzmin=   0.516, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   63. fmhzmin=   0.500, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   62. fmhzmin=   0.508, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   64. fmhzmin=   0.492, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   61
+  CPU Rank   1 running checkmode for tor for degree l=   63
+  CPU Rank   2 running checkmode for tor for degree l=   62
+  CPU Rank   0 running checkmode for tor for degree l=   64
+  CPU Rank   3 running mineos for sph for degree      l=   68. fmhzmin=   0.548, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   66. fmhzmin=   0.532, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   67. fmhzmin=   0.540, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   65. fmhzmin=   0.524, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   68
+  CPU Rank   1 running checkmode for sph for degree l=   66
+  CPU Rank   2 running checkmode for sph for degree l=   67
+  CPU Rank   0 running checkmode for sph for degree l=   65
+  CPU Rank   3 running mineos for tor for degree      l=   65. fmhzmin=   0.548, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   67. fmhzmin=   0.532, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   66. fmhzmin=   0.540, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   68. fmhzmin=   0.524, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   65
+  CPU Rank   1 running checkmode for tor for degree l=   67
+  CPU Rank   2 running checkmode for tor for degree l=   66
+  CPU Rank   0 running checkmode for tor for degree l=   68
+  CPU Rank   3 running mineos for sph for degree      l=   72. fmhzmin=   0.580, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   70. fmhzmin=   0.564, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   71. fmhzmin=   0.572, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   69. fmhzmin=   0.556, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   72
+  CPU Rank   1 running checkmode for sph for degree l=   70
+  CPU Rank   2 running checkmode for sph for degree l=   71
+  CPU Rank   0 running checkmode for sph for degree l=   69
+  CPU Rank   3 running mineos for tor for degree      l=   69. fmhzmin=   0.580, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   71. fmhzmin=   0.564, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   70. fmhzmin=   0.572, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   72. fmhzmin=   0.556, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   69
+  CPU Rank   1 running checkmode for tor for degree l=   71
+  CPU Rank   2 running checkmode for tor for degree l=   70
+  CPU Rank   0 running checkmode for tor for degree l=   72
+  CPU Rank   3 running mineos for sph for degree      l=   76. fmhzmin=   0.612, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   74. fmhzmin=   0.596, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   75. fmhzmin=   0.604, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   73. fmhzmin=   0.588, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   76
+  CPU Rank   1 running checkmode for sph for degree l=   74
+  CPU Rank   2 running checkmode for sph for degree l=   75
+  CPU Rank   0 running checkmode for sph for degree l=   73
+  CPU Rank   3 running mineos for tor for degree      l=   73. fmhzmin=   0.612, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   75. fmhzmin=   0.596, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   74. fmhzmin=   0.604, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   76. fmhzmin=   0.588, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   73
+  CPU Rank   1 running checkmode for tor for degree l=   75
+  CPU Rank   2 running checkmode for tor for degree l=   74
+  CPU Rank   0 running checkmode for tor for degree l=   76
+  CPU Rank   3 running mineos for sph for degree      l=   80. fmhzmin=   0.644, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   78. fmhzmin=   0.628, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   79. fmhzmin=   0.636, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   77. fmhzmin=   0.620, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   80
+  CPU Rank   1 running checkmode for sph for degree l=   78
+  CPU Rank   2 running checkmode for sph for degree l=   79
+  CPU Rank   0 running checkmode for sph for degree l=   77
+  CPU Rank   3 running mineos for tor for degree      l=   77. fmhzmin=   0.644, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   79. fmhzmin=   0.628, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   78. fmhzmin=   0.636, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   80. fmhzmin=   0.620, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   77
+  CPU Rank   1 running checkmode for tor for degree l=   79
+  CPU Rank   2 running checkmode for tor for degree l=   78
+  CPU Rank   0 running checkmode for tor for degree l=   80
+  CPU Rank   3 running mineos for sph for degree      l=   84. fmhzmin=   0.675, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   82. fmhzmin=   0.660, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   83. fmhzmin=   0.667, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   81. fmhzmin=   0.652, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   84
+  CPU Rank   1 running checkmode for sph for degree l=   82
+  CPU Rank   2 running checkmode for sph for degree l=   83
+  CPU Rank   0 running checkmode for sph for degree l=   81
+  CPU Rank   3 running mineos for tor for degree      l=   81. fmhzmin=   0.675, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   83. fmhzmin=   0.660, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   82. fmhzmin=   0.667, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   84. fmhzmin=   0.652, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   81
+  CPU Rank   1 running checkmode for tor for degree l=   83
+  CPU Rank   2 running checkmode for tor for degree l=   82
+  CPU Rank   0 running checkmode for tor for degree l=   84
+  CPU Rank   3 running mineos for sph for degree      l=   88. fmhzmin=   0.707, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   86. fmhzmin=   0.691, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   87. fmhzmin=   0.699, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   85. fmhzmin=   0.683, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   88
+  CPU Rank   1 running checkmode for sph for degree l=   86
+  CPU Rank   2 running checkmode for sph for degree l=   87
+  CPU Rank   0 running checkmode for sph for degree l=   85
+  CPU Rank   3 running mineos for tor for degree      l=   85. fmhzmin=   0.707, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   87. fmhzmin=   0.691, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   86. fmhzmin=   0.699, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   88. fmhzmin=   0.683, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   85
+  CPU Rank   1 running checkmode for tor for degree l=   87
+  CPU Rank   2 running checkmode for tor for degree l=   86
+  CPU Rank   0 running checkmode for tor for degree l=   88
+  CPU Rank   3 running mineos for sph for degree      l=   92. fmhzmin=   0.739, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   90. fmhzmin=   0.723, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   91. fmhzmin=   0.731, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   89. fmhzmin=   0.715, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   92
+  CPU Rank   1 running checkmode for sph for degree l=   90
+  CPU Rank   2 running checkmode for sph for degree l=   91
+  CPU Rank   0 running checkmode for sph for degree l=   89
+  CPU Rank   3 running mineos for tor for degree      l=   89. fmhzmin=   0.739, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   91. fmhzmin=   0.723, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   90. fmhzmin=   0.731, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   92. fmhzmin=   0.715, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   89
+  CPU Rank   1 running checkmode for tor for degree l=   91
+  CPU Rank   2 running checkmode for tor for degree l=   90
+  CPU Rank   0 running checkmode for tor for degree l=   92
+  CPU Rank   3 running mineos for sph for degree      l=   96. fmhzmin=   0.771, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   94. fmhzmin=   0.755, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   95. fmhzmin=   0.763, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   93. fmhzmin=   0.747, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=   96
+  CPU Rank   1 running checkmode for sph for degree l=   94
+  CPU Rank   2 running checkmode for sph for degree l=   95
+  CPU Rank   0 running checkmode for sph for degree l=   93
+  CPU Rank   3 running mineos for tor for degree      l=   93. fmhzmin=   0.771, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   95. fmhzmin=   0.755, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   94. fmhzmin=   0.763, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=   96. fmhzmin=   0.747, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   93
+  CPU Rank   1 running checkmode for tor for degree l=   95
+  CPU Rank   2 running checkmode for tor for degree l=   94
+  CPU Rank   0 running checkmode for tor for degree l=   96
+  CPU Rank   3 running mineos for sph for degree      l=  100. fmhzmin=   0.803, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=   98. fmhzmin=   0.787, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=   99. fmhzmin=   0.795, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=   97. fmhzmin=   0.779, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  100
+  CPU Rank   1 running checkmode for sph for degree l=   98
+  CPU Rank   2 running checkmode for sph for degree l=   99
+  CPU Rank   0 running checkmode for sph for degree l=   97
+  CPU Rank   3 running mineos for tor for degree      l=   97. fmhzmin=   0.803, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=   99. fmhzmin=   0.787, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=   98. fmhzmin=   0.795, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  100. fmhzmin=   0.779, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=   97
+  CPU Rank   1 running checkmode for tor for degree l=   99
+  CPU Rank   2 running checkmode for tor for degree l=   98
+  CPU Rank   0 running checkmode for tor for degree l=  100
+  CPU Rank   3 running mineos for sph for degree      l=  104. fmhzmin=   0.835, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  102. fmhzmin=   0.819, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  103. fmhzmin=   0.827, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  101. fmhzmin=   0.811, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  104
+  CPU Rank   1 running checkmode for sph for degree l=  102
+  CPU Rank   2 running checkmode for sph for degree l=  103
+  CPU Rank   0 running checkmode for sph for degree l=  101
+  CPU Rank   3 running mineos for tor for degree      l=  101. fmhzmin=   0.835, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  103. fmhzmin=   0.819, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  102. fmhzmin=   0.827, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  104. fmhzmin=   0.811, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  101
+  CPU Rank   1 running checkmode for tor for degree l=  103
+  CPU Rank   2 running checkmode for tor for degree l=  102
+  CPU Rank   0 running checkmode for tor for degree l=  104
+  CPU Rank   3 running mineos for sph for degree      l=  108. fmhzmin=   0.867, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  106. fmhzmin=   0.851, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  107. fmhzmin=   0.859, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  105. fmhzmin=   0.843, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  108
+  CPU Rank   1 running checkmode for sph for degree l=  106
+  CPU Rank   2 running checkmode for sph for degree l=  107
+  CPU Rank   0 running checkmode for sph for degree l=  105
+  CPU Rank   3 running mineos for tor for degree      l=  105. fmhzmin=   0.867, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  107. fmhzmin=   0.851, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  106. fmhzmin=   0.859, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  108. fmhzmin=   0.843, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  105
+  CPU Rank   1 running checkmode for tor for degree l=  107
+  CPU Rank   2 running checkmode for tor for degree l=  106
+  CPU Rank   0 running checkmode for tor for degree l=  108
+  CPU Rank   3 running mineos for sph for degree      l=  112. fmhzmin=   0.899, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  110. fmhzmin=   0.883, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  111. fmhzmin=   0.891, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  109. fmhzmin=   0.875, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  112
+  CPU Rank   1 running checkmode for sph for degree l=  110
+  CPU Rank   2 running checkmode for sph for degree l=  111
+  CPU Rank   0 running checkmode for sph for degree l=  109
+  CPU Rank   3 running mineos for tor for degree      l=  109. fmhzmin=   0.899, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  111. fmhzmin=   0.883, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  110. fmhzmin=   0.891, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  112. fmhzmin=   0.875, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  109
+  CPU Rank   1 running checkmode for tor for degree l=  111
+  CPU Rank   2 running checkmode for tor for degree l=  110
+  CPU Rank   0 running checkmode for tor for degree l=  112
+  CPU Rank   3 running mineos for sph for degree      l=  116. fmhzmin=   0.931, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  114. fmhzmin=   0.915, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  115. fmhzmin=   0.923, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  113. fmhzmin=   0.907, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  116
+  CPU Rank   1 running checkmode for sph for degree l=  114
+  CPU Rank   2 running checkmode for sph for degree l=  115
+  CPU Rank   0 running checkmode for sph for degree l=  113
+  CPU Rank   3 running mineos for tor for degree      l=  113. fmhzmin=   0.931, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  115. fmhzmin=   0.915, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  114. fmhzmin=   0.923, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  116. fmhzmin=   0.907, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  113
+  CPU Rank   1 running checkmode for tor for degree l=  115
+  CPU Rank   2 running checkmode for tor for degree l=  114
+  CPU Rank   0 running checkmode for tor for degree l=  116
+  CPU Rank   3 running mineos for sph for degree      l=  120. fmhzmin=   0.963, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  118. fmhzmin=   0.947, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  119. fmhzmin=   0.955, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  117. fmhzmin=   0.939, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  120
+  CPU Rank   1 running checkmode for sph for degree l=  118
+  CPU Rank   2 running checkmode for sph for degree l=  119
+  CPU Rank   0 running checkmode for sph for degree l=  117
+  CPU Rank   3 running mineos for tor for degree      l=  117. fmhzmin=   0.963, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  119. fmhzmin=   0.947, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  118. fmhzmin=   0.955, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  120. fmhzmin=   0.939, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  117
+  CPU Rank   1 running checkmode for tor for degree l=  119
+  CPU Rank   2 running checkmode for tor for degree l=  118
+  CPU Rank   0 running checkmode for tor for degree l=  120
+  CPU Rank   3 running mineos for sph for degree      l=  124. fmhzmin=   0.995, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  122. fmhzmin=   0.979, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  123. fmhzmin=   0.987, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  121. fmhzmin=   0.971, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  124
+  CPU Rank   1 running checkmode for sph for degree l=  122
+  CPU Rank   2 running checkmode for sph for degree l=  123
+  CPU Rank   0 running checkmode for sph for degree l=  121
+  CPU Rank   3 running mineos for tor for degree      l=  121. fmhzmin=   0.995, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  123. fmhzmin=   0.979, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  122. fmhzmin=   0.987, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  124. fmhzmin=   0.971, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  121
+  CPU Rank   1 running checkmode for tor for degree l=  123
+  CPU Rank   2 running checkmode for tor for degree l=  122
+  CPU Rank   0 running checkmode for tor for degree l=  124
+  CPU Rank   3 running mineos for sph for degree      l=  128. fmhzmin=   1.027, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  126. fmhzmin=   1.011, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  127. fmhzmin=   1.019, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  125. fmhzmin=   1.003, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  128
+  CPU Rank   1 running checkmode for sph for degree l=  126
+  CPU Rank   2 running checkmode for sph for degree l=  127
+  CPU Rank   0 running checkmode for sph for degree l=  125
+  CPU Rank   3 running mineos for tor for degree      l=  125. fmhzmin=   1.027, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  127. fmhzmin=   1.011, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  126. fmhzmin=   1.019, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  128. fmhzmin=   1.003, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  125
+  CPU Rank   1 running checkmode for tor for degree l=  127
+  CPU Rank   2 running checkmode for tor for degree l=  126
+  CPU Rank   0 running checkmode for tor for degree l=  128
+  CPU Rank   3 running mineos for sph for degree      l=  132. fmhzmin=   1.059, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  130. fmhzmin=   1.043, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  131. fmhzmin=   1.051, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  129. fmhzmin=   1.035, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  132
+  CPU Rank   1 running checkmode for sph for degree l=  130
+  CPU Rank   2 running checkmode for sph for degree l=  131
+  CPU Rank   0 running checkmode for sph for degree l=  129
+  CPU Rank   3 running mineos for tor for degree      l=  129. fmhzmin=   1.059, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  131. fmhzmin=   1.043, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  130. fmhzmin=   1.051, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  132. fmhzmin=   1.035, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  129
+  CPU Rank   1 running checkmode for tor for degree l=  131
+  CPU Rank   2 running checkmode for tor for degree l=  130
+  CPU Rank   0 running checkmode for tor for degree l=  132
+  CPU Rank   3 running mineos for sph for degree      l=  136. fmhzmin=   1.091, fmhzmax=  10.000
+  CPU Rank   1 running mineos for sph for degree      l=  134. fmhzmin=   1.075, fmhzmax=  10.000
+  CPU Rank   2 running mineos for sph for degree      l=  135. fmhzmin=   1.083, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  133. fmhzmin=   1.067, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for sph for degree l=  136
+  CPU Rank   1 running checkmode for sph for degree l=  134
+  CPU Rank   2 running checkmode for sph for degree l=  135
+  CPU Rank   0 running checkmode for sph for degree l=  133
+  CPU Rank   3 running mineos for tor for degree      l=  133. fmhzmin=   1.091, fmhzmax=  10.000
+  CPU Rank   1 running mineos for tor for degree      l=  135. fmhzmin=   1.075, fmhzmax=  10.000
+  CPU Rank   2 running mineos for tor for degree      l=  134. fmhzmin=   1.083, fmhzmax=  10.000
+  CPU Rank   0 running mineos for tor for degree      l=  136. fmhzmin=   1.067, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for tor for degree l=  133
+  CPU Rank   1 running checkmode for tor for degree l=  135
+  CPU Rank   2 running checkmode for tor for degree l=  134
+  CPU Rank   0 running checkmode for tor for degree l=  136
+  CPU Rank   3 running mineos for rad for degree      l=    0. fmhzmin=   0.005, fmhzmax=  10.000
+  CPU Rank   0 running mineos for sph for degree      l=  137. fmhzmin=   1.099, fmhzmax=  10.000
+  CPU Rank   3 running checkmode for rad for degree l=    0
+  CPU Rank   0 running checkmode for sph for degree l=  137
+  CPU Rank   0 running mineos for tor for degree      l=  137. fmhzmin=   1.099, fmhzmax=  10.000
+  CPU Rank   0 running checkmode for tor for degree l=  137
+ Elapsed time=   759.04723659623414     
