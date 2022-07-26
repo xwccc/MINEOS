@@ -1,4 +1,4 @@
-#!/bin/csh -f
+#!/bin/sh
 # Luis Rivera, CNRS, France, 2001: conversion from ASCII to SAC
 # input ASCII format is time and displacement on two columns
 # 8 digits of precision
