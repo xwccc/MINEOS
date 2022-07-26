@@ -33,7 +33,7 @@ echo Output directory: $OUTDIR
 #
 mkdir -p $OUTDIR
 #
-mpiexec -n $CORES ./mineos_mpi $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR > OUTPUT &
+nohup mpiexec -n $CORES ./mineos_mpi $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR > OUTPUT 2>&1 &
 #
 #
 #echo  "Computing is ended at $(date)." >> OUTPUT
