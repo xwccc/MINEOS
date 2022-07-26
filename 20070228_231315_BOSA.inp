@@ -3,7 +3,7 @@
   25.   0.824  -1.140   0.311  -0.784   0.882   1.150  6.6  2.8	 	# gcmt solution
 BOSA							# STATION
   -28.61000   25.26000   0.000		# station lat, lon, elevation
-0. 3600. 1.						# 理论地震图的起始，终止和采样间隔
+0. 3600. 1.						# strat, end, interval
 1
 ./sph
 PREMQL6ic_21808e_0000sph0100
