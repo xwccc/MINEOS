@@ -33,6 +33,6 @@ echo Output directory: $OUTDIR
 #
 mkdir -p $OUTDIR
 #
-bsub -I -n $NODENUM mpirun -n $NODENUM ./mineos_mpi $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR >& OUTPUT &
+bsub -R 'hname!=c028' -I -n $NODENUM mpirun -n $NODENUM ./mineos_mpi $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR >& OUTPUT &
 
 echo  "Computing is ended at $(date)."
