@@ -1,7 +1,22 @@
 #!/bin/bash
 #
 #
-#module load mpi/mpich/3.4.1_intel_2019.5
+###### set job's squeue
+#BSUB -q normal
+#BSUB -R "rusage[mem=2MB]"
+
+##### set job's name
+#BSUB -J mineos_mpi
+#BSUB -o lsf-%J.out
+#BSUB -e lsf-%J.err
+
+##### set task nums
+#BSUB -n 8
+
+##### set parallel env 
+module load mpi/impi/2019.5.281
+
+##### parameters for mineos_mpi
 NODENUM=8
 OUTDIR="./tmp"
 MODNAM="premANIC"
@@ -33,6 +48,6 @@ echo Output directory: $OUTDIR
 #
 mkdir -p $OUTDIR
 #
-bsub -R 'hname!=c028' -I -n $NODENUM mpirun -n $NODENUM ./mineos_mpi $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR >& OUTPUT &
+mpirun -np $NODENUM ./mineos_mpi $MODPAT $MODNAM $OUTDIR $GRAV $LMIN $LMAX $EPS $FMIN $FMAX $CHKERR > $LSB_JOBID.log 2>&1
 
 echo  "Computing is ended at $(date)."
